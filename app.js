@@ -11,7 +11,7 @@ Are you interested in learning about self massage tips for quarantine?
 Have you ever tried partnered massage?
 Do you like the color blue?
 */
-
+function aboutMassage(){
 var knowMassage = prompt('Do you know about massage therapy?');
 var knowMassageCase = knowMassage.toLowerCase();
 
@@ -28,7 +28,10 @@ if (knowMassageCase === 'yes') {
 } else {
   alert('Why you gotta be like that man?? Breaking my code!');
 }
+}
+aboutMassage();
 
+function partnerMassage(){
 var quarantineMassage = prompt('are you interested in learning partnered massage tricks?');
 var quarantineMassageCase = quarantineMassage.toLowerCase();
 
@@ -37,10 +40,12 @@ if (quarantineMassageCase === 'yes') {
 } else {
   alert('Well aren\'t you a trickster today?? hmmm?');
 }
-
+}
+partnerMassage();
 
 // questions down here are going to be prompts
 
+function timelineMassage(){
 var yearsMassage = prompt('Can you guess how long I\'ve been a Massage Therapist?');
 var yearsMassageNumber = parseInt(yearsMassage);
 for (var i = 0; i < 4; i++) {
@@ -56,3 +61,5 @@ for (var i = 0; i < 4; i++) {
   }
 }
 alert('I\'ve been a massage therapist for 4 years, but have loved bodywork all my life.');
+}
+timelineMassage();
